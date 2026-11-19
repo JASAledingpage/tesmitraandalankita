@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner Andalan Kita - Jasa Perizinan Usaha, Pendirian PT & CV Nomor 1 Terpercaya</title>
+    <!-- Meta SEO Super Kuat & E-A-T Optimization -->
+    <meta name="description" content="Partner Andalan Kita adalah biro jasa perizinan usaha, pendirian PT, CV, izin apotek, IDAK, dan sertifikasi resmi nomor 1 di Indonesia dengan proses transparan.">
+    <meta name="keywords" content="partneranadalankita, jasa perizinan usaha, pendirian PT, pendirian CV, izin apotek, IDAK, CDAKB, sertifikasi halal, legalitas perusahaan">
+    <link rel="canonical" href="https://partnerandalankita.com">
+    <!-- Favicon Terpasang -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* ========================================================= ROOT ========================================================= */
+        :root{ --navy:#071a35; --navy-light:#0d2d57; --blue:#1769e0; --cyan:#38bdf8; --white:#ffffff; --soft:#f5f8fc; --text:#17263c; --muted:#68778d; --border:#e5ebf3; --green:#20c875; --gold:#eabd60; --shadow:0 25px 70px rgba(7,26,53,.12); --radius:24px; }
+        *{ margin:0; padding:0; box-sizing:border-box; }
+        html{ scroll-behavior:smooth; }
+        body{ font-family:"DM Sans",sans-serif; color:var(--text); background:#fff; line-height:1.7; overflow-x:hidden; }
+        h1,h2,h3,h4{ font-family:"Manrope",sans-serif; line-height:1.15; }
+        a{ text-decoration:none; color:inherit; }
+        button{ font-family:inherit; }
+        .container{ width:min(1160px,calc(100% - 40px)); margin:auto; }
+        section{ padding:110px 0; position:relative; }
+        .section-title{ text-align:center; max-width:720px; margin:0 auto 55px; }
+        .badge{ display:inline-flex; align-items:center; gap:8px; padding:8px 15px; border-radius:999px; background:#edf5ff; color:var(--blue); font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.12em; margin-bottom:18px; }
+        .badge::before{ content:""; width:7px; height:7px; background:var(--cyan); border-radius:50%; }
+        .section-title h2{ font-size:clamp(32px,4vw,50px); color:var(--navy); letter-spacing:-.04em; margin-bottom:17px; }
+        .section-title p{ color:var(--muted); font-size:16px; }
+
+        /* ========================================================= HEADER ========================================================= */
+        .header{ position:fixed; top:0; left:0; width:100%; z-index:1000; padding:15px 0; transition:.35s ease; background:var(--navy); }
+        .header.scrolled{ padding:12px 0; background:var(--navy); backdrop-filter:blur(18px); box-shadow:0 8px 35px rgba(7,26,53,.2); }
+        .nav{ display:flex; justify-content:space-between; align-items:center; gap:30px; }
+        .logo{ display:flex; align-items:center; }
+        .logo img{ height:50px; width:auto; display:block; object-fit:contain; }
+        .nav-menu{ display:flex; align-items:center; gap:20px; }
+        .nav-menu a{ color:#fff; font-size:13px; font-weight:700; transition:.25s; }
+        .nav-menu a:hover{ color:var(--cyan)!important; }
+        .nav-button{ padding:12px 18px; background:#fff; color:var(--navy)!important; border-radius:12px; display:flex; align-items:center; gap:8px; box-shadow:0 10px 25px rgba(0,0,0,.08); transition:.3s; }
+        .nav-button:hover{ background:var(--cyan); color:#fff!important; }
+        .menu-toggle{ display:none; border:0; background:none; color:#fff; font-size:22px; cursor:pointer; }
+
+        /* ========================================================= HERO ========================================================= */
+        .hero{ min-height:auto; display:flex; align-items:center; padding:130px 0 90px; background: radial-gradient(circle at 80% 20%,rgba(23,105,224,.38),transparent 32%), radial-gradient(circle at 10% 90%,rgba(56,189,248,.12),transparent 30%), var(--navy); color:#fff; overflow:hidden; position:relative; }
+        .hero-grid{ position:relative; z-index:2; display:grid; grid-template-columns:1.08fr .92fr; align-items:center; gap:70px; }
+        .hero-content{ max-width:700px; }
+        .hero-label{ color:#83d9ff; font-size:12px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; margin-bottom:20px; }
+        .hero h1{ font-size:clamp(40px,5.5vw,70px); letter-spacing:-.055em; margin-bottom:25px; }
+        .hero h1 span{ background: linear-gradient( 90deg, #fff, #75d6ff ); -webkit-background-clip:text; color:transparent; }
+        .hero-text{ max-width:620px; color:#b9c9dd; font-size:17px; }
+        .hero-buttons{ display:flex; gap:12px; flex-wrap:wrap; margin-top:32px; }
+        .btn{ display:inline-flex; align-items:center; justify-content:center; gap:10px; padding:15px 22px; border-radius:13px; font-size:13px; font-weight:800; transition:.3s; border:1px solid transparent; }
+        .btn-primary{ background:#fff; color:var(--navy); }
+        .btn-primary:hover{ transform:translateY(-4px); box-shadow: 0 18px 35px rgba(0,0,0,.22); }
+        .btn-outline{ color:#fff; background:rgba(255,255,255,.05); border-color:rgba(255,255,255,.18); }
+        .btn-outline:hover{ background:rgba(255,255,255,.1); transform:translateY(-4px); }
+
+        /* HERO CARD */
+        .hero-panel{ position:relative; padding:30px; min-height:440px; border-radius:30px; background: linear-gradient( 145deg, rgba(255,255,255,.12), rgba(255,255,255,.035) ); border: 1px solid rgba(255,255,255,.13); backdrop-filter:blur(20px); box-shadow: 0 35px 90px rgba(0,0,0,.2); overflow:hidden; }
+        .hero-panel::after{ content:""; position:absolute; width:220px; height:220px; right:-100px; top:-100px; border-radius:50%; background: rgba(56,189,248,.15); filter:blur(8px); }
+        .panel-header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:30px; }
+        .panel-label{ font-size:10px; color:#9cb0c8; text-transform:uppercase; letter-spacing:.12em; }
+        .panel-header h3{ margin-top:5px; font-size:20px; }
+        .online{ width:11px; height:11px; border-radius:50%; background:#50df98; box-shadow: 0 0 0 7px rgba(80,223,152,.1); }
+        .panel-services{ display:grid; gap:12px; }
+        .panel-service{ display:flex; align-items:center; gap:14px; padding:16px; border-radius:16px; background:rgba(255,255,255,.055); border: 1px solid rgba(255,255,255,.08); transition:.3s; }
+        .panel-service:hover{ transform:translateX(5px); background: rgba(255,255,255,.1); }
+        .panel-service-icon{ width:43px; height:43px; display:grid; place-items:center; border-radius:12px; background: rgba(56,189,248,.12); color:#7ddcff; }
+        .panel-service strong{ display:block; font-size:13px; }
+        .panel-service small{ display:block; color:#91a6be; font-size:11px; }
+        .hero-floating{ position:absolute; right:-20px; bottom:30px; padding:15px 18px; background:#fff; color:var(--navy); border-radius:15px; font-size:12px; font-weight:800; box-shadow:var(--shadow); }
+
+        /* ========================================================= TRUST BAR ========================================================= */
+        .trust{ padding:25px 0; background:#fff; border-bottom: 1px solid var(--border); }
+        .trust-grid{ display:grid; grid-template-columns: repeat(4,1fr); }
+        .trust-item{ text-align:center; padding:12px 20px; border-right: 1px solid var(--border); }
+        .trust-item:last-child{ border-right:0; }
+        .trust-item strong{ display:block; color:var(--navy); font-family:"Manrope"; font-size:24px; }
+        .trust-item span{ color:var(--muted); font-size:11px; }
+
+        /* ========================================================= ABOUT ========================================================= */
+        .about-grid{ display:grid; grid-template-columns:.9fr 1.1fr; gap:80px; align-items:center; }
+        .about-visual{ min-height:480px; position:relative; overflow:hidden; padding:35px; border-radius:32px; background: linear-gradient( 145deg, #06182f, #123f78 ); box-shadow:var(--shadow); }
+        .about-visual::before{ content:""; position:absolute; width:350px; height:350px; right:-150px; top:-130px; border-radius:50%; background: rgba(56,189,248,.15); }
+        .about-big{ position:absolute; left:35px; top:105px; }
+        .about-big div{ font-family:"Manrope"; font-size:55px; font-weight:800; letter-spacing:-.06em; line-height:1; color:#ffffff; text-shadow:0 4px 20px rgba(0,0,0,0.35); }
+        .about-big div:nth-child(2){ color:#75d7ff; }
+        .about-quote{ position:absolute; left:35px; right:35px; bottom:35px; padding:24px; border-radius:20px; background: rgba(255,255,255,.08); backdrop-filter:blur(15px); border: 1px solid rgba(255,255,255,.1); }
+        .about-quote p{ color:#fff; font-family:"Manrope"; font-size:20px; font-weight:700; }
+        .about-quote small{ color:#9fb3cb; display:block; margin-top:10px; }
+        .about-content h2{ color:var(--navy); font-size: clamp(32px,4vw,50px); margin-bottom:20px; letter-spacing:-.04em; }
+        .about-content p{ color:var(--muted); margin-bottom:17px; font-size:14px; }
+        .checks{ display:grid; gap:11px; margin-top:25px; }
+        .checks li{ list-style:none; display:flex; gap:11px; color:#34445a; font-size:14px; font-weight:700; }
+        .checks i{ color:#20b979; margin-top:4px; }
+
+        /* ========================================================= VALUES ========================================================= */
+        .values{ background:var(--soft); }
+        .value-grid{ display:grid; grid-template-columns: repeat(3,1fr); gap:20px; }
+        .value-card{ position:relative; padding:30px; background:#fff; border: 1px solid var(--border); border-radius:23px; overflow:hidden; transition:.4s; }
+        .value-card::before{ content:""; position:absolute; width:100px; height:100px; right:-50px; top:-50px; border-radius:50%; background: #edf5ff; transition:.4s; }
+        .value-card:hover{ transform:translateY(-9px); box-shadow:var(--shadow); }
+        .value-card:hover::before{ transform:scale(2); }
+        .value-card i{ position:relative; color:var(--blue); font-size:24px; margin-bottom:45px; }
+        .value-card h3{ position:relative; color:var(--navy); font-size:20px; margin-bottom:10px; }
+        .value-card p{ position:relative; color:var(--muted); font-size:13px; }
+
+        /* ========================================================= SERVICES ========================================================= */
+        .services-tabs{ display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:38px; }
+        .tab{ padding:12px 18px; border: 1px solid var(--border); border-radius:12px; background:#fff; color:var(--muted); font-size:12px; font-weight:800; cursor:pointer; transition:.3s; }
+        .tab:hover, .tab.active{ color:#fff; background:var(--navy); border-color:var(--navy); transform:translateY(-2px); }
+        .service-panel{ display:none; }
+        .service-panel.active{ display:block; animation:panelFade .5s ease; }
+        @keyframes panelFade{ from{ opacity:0; transform:translateY(12px); } to{ opacity:1; transform:none; } }
+        .service-grid{ display:grid; grid-template-columns: repeat(3,1fr); gap:20px; }
+        .service-card{ position:relative; padding:27px; background:#fff; border: 1px solid var(--border); border-radius:23px; overflow:hidden; transition:.4s; }
+        .service-card::before{ content:""; position:absolute; left:0; top:0; width:100%; height:3px; background: linear-gradient( 90deg, var(--blue), var(--cyan) ); transform:scaleX(0); transform-origin:left; transition:.4s; }
+        .service-card::after{ content:""; position:absolute; width:130px; height:130px; right:-100px; top:-100px; border-radius:50%; background:#edf5ff; transition:.4s; }
+        .service-card:hover{ transform:translateY(-8px); box-shadow:var(--shadow); border-color:#d3e2f4; }
+        .service-card:hover::before{ transform:scaleX(1); }
+        .service-card:hover::after{ transform:scale(1.5); }
+        .service-icon{ position:relative; z-index:2; width:48px; height:48px; display:grid; place-items:center; border-radius:14px; background:#edf5ff; color:var(--blue); margin-bottom:24px; }
+        .service-card h3{ position:relative; z-index:2; color:var(--navy); font-size:18px; min-height:42px; }
+        .price{ position:relative; z-index:2; color:var(--blue); font-size:17px; font-weight:900; margin:10px 0 13px; }
+        .service-card > p{ position:relative; z-index:2; color:var(--muted); font-size:12px; }
+        .ribbon{ position:absolute; right:16px; top:16px; z-index:3; padding:6px 9px; border-radius:8px; background:#f0f7ff; color:var(--blue); font-size:9px; font-weight:900; text-transform:uppercase; }
+        .service-wa{ display:inline-flex; align-items:center; gap:6px; margin-top:10px; padding:8px 12px; border-radius:10px; background:#20c875; color:#fff; text-decoration:none; font-size:10px; font-weight:800; transition:.25s ease; }
+        .service-wa:hover{ transform:translateY(-1px); filter:brightness(.96); }
+        .detail-btn{ position:relative; z-index:2; margin-top:17px; border:0; background:none; color:var(--blue); font-size:11px; font-weight:800; cursor:pointer; }
+        .detail-btn i{ transition:.3s; margin-left:5px; }
+        .detail{ position:relative; z-index:2; max-height:0; overflow:hidden; transition: max-height .45s ease, margin .3s ease; color:var(--muted); font-size:11px; }
+        .service-card.open .detail{ max-height:900px; margin-top:13px; }
+        .service-card.open .detail-btn i{ transform:rotate(180deg); }
+        .detail ul{ padding-left:17px; }
+        .detail li{ margin:4px 0; }
+
+        /* ========================================================= SEO NETWORK & BACKLINK BLOG SECTION ========================================================= */
+        .seo-blog-section{ background:var(--soft); padding:80px 0; border-top:1px solid var(--border); }
+        .blog-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:25px; margin-top:40px; }
+        .blog-card{ background:#fff; padding:25px; border-radius:20px; border:1px solid var(--border); transition:.3s; }
+        .blog-card:hover{ transform:translateY(-5px); box-shadow:var(--shadow); }
+        .blog-card h3{ font-size:17px; color:var(--navy); margin-bottom:12px; }
+        .blog-card p{ font-size:13px; color:var(--muted); margin-bottom:15px; }
+        .blog-link{ font-size:12px; font-weight:800; color:var(--blue); display:inline-flex; align-items:center; gap:5px; }
+
+        /* ========================================================= WHY US ========================================================= */
+        .why{ background:var(--navy); color:#fff; overflow:hidden; }
+        .why .section-title h2{ color:#fff; }
+        .why .section-title p{ color:#9eb1c8; }
+        .why-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:18px; }
+        .why-card{ padding:26px; border: 1px solid rgba(255,255,255,.1); border-radius:20px; background: rgba(255,255,255,.045); transition:.35s; }
+        .why-card:hover{ transform:translateY(-7px); background: rgba(255,255,255,.075); }
+        .why-card i{ color:#76d7ff; font-size:23px; margin-bottom:35px; }
+        .why-card h3{ font-size:17px; margin-bottom:8px; }
+        .why-card p{ color:#9eb1c8; font-size:12px; }
+
+        /* ========================================================= PROCESS ========================================================= */
+        .process-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:20px; position:relative; }
+        .process-grid::before{ content:""; position:absolute; top:32px; left:9%; right:9%; height:1px; background:#dce5ef; }
+        .process-card{ position:relative; z-index:2; text-align:center; }
+        .process-number{ width:65px; height:65px; margin:0 auto 23px; display:grid; place-items:center; border-radius:50%; background:#fff; border: 1px solid #dbe4ee; color:var(--blue); font-family:"Manrope"; font-size:13px; font-weight:800; box-shadow: 0 8px 25px rgba(7,26,53,.08); }
+        .process-card h3{ color:var(--navy); font-size:17px; margin-bottom:8px; }
+        .process-card p{ color:var(--muted); font-size:12px; }
+
+        /* ========================================================= TESTIMONIAL ========================================================= */
+        .testimonials{ background:var(--soft); }
+        .testimonial-grid{ display:grid; grid-template-columns: repeat(4,1fr); gap:18px; }
+        .testimonial{ padding:25px; background:#fff; border: 1px solid var(--border); border-radius:22px; transition:.35s; }
+        .testimonial:hover{ transform:translateY(-7px); box-shadow:var(--shadow); }
+        .stars{ color:var(--gold); font-size:12px; margin-bottom:18px; }
+        .testimonial p{ color:#506077; font-size:12px; min-height:125px; }
+        .testimonial strong{ display:block; color:var(--navy); font-size:13px; }
+        .testimonial small{ color:#8997a9; font-size:10px; }
+
+        /* ========================================================= FAQ ========================================================= */
+        .faq-list{ max-width:850px; margin:auto; display:grid; gap:12px; }
+        .faq{ overflow:hidden; background:#fff; border: 1px solid var(--border); border-radius:17px; }
+        .faq-question{ width:100%; padding:21px; display:flex; justify-content:space-between; align-items:center; gap:20px; border:0; background:none; text-align:left; color:var(--navy); font-size:13px; font-weight:800; cursor:pointer; }
+        .faq-question i{ color:var(--blue); transition:.3s; }
+        .faq-answer{ max-height:0; overflow:hidden; transition:max-height .4s ease; }
+        .faq-answer p{ padding: 0 21px 20px; color:var(--muted); font-size:12px; }
+        .faq.open .faq-question i{ transform:rotate(180deg); }
+        .faq.open .faq-answer{ max-height:150px; }
+
+        /* ========================================================= CTA ========================================================= */
+        .cta{ padding:80px 0; }
+        .cta-box{ position:relative; overflow:hidden; padding:60px; border-radius:30px; background: linear-gradient( 120deg, #071a35, #0d4382 ); display:flex; justify-content:space-between; align-items:center; gap:30px; color:#fff; }
+        .cta-box::after{ content:""; position:absolute; width:330px; height:330px; right:-150px; top:-170px; border-radius:50%; background: rgba(56,189,248,.14); }
+        .cta-box h2{ position:relative; z-index:2; max-width:650px; font-size: clamp(28px,4vw,45px); margin-bottom:12px; }
+        .cta-box p{ position:relative; z-index:2; color:#adc1d8; max-width:600px; font-size:14px; }
+        .cta-box .btn{ position:relative; z-index:3; white-space:nowrap; }
+
+        /* ========================================================= FOOTER ========================================================= */
+        footer{ padding:60px 0 25px; background:#041225; color:#fff; }
+        .footer-grid{ display:grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap:45px; padding-bottom:45px; border-bottom: 1px solid rgba(255,255,255,.1); }
+        .footer-logo{ display:flex; align-items:center; margin-bottom:18px; }
+        .footer-logo img{ height:45px; width:auto; display:block; object-fit:contain; }
+        .footer-col h4{ font-size:14px; margin-bottom:16px; }
+        .footer-col p, .footer-col a{ color:#8fa3bb; font-size:12px; }
+        .footer-col a{ display:block; margin:8px 0; transition:.2s; }
+        .footer-col a:hover{ color:#fff; }
+        .socials{ display:flex; gap:9px; margin-top:18px; flex-wrap:wrap; }
+        .socials a{ width:36px; height:36px; display:grid; place-items:center; border: 1px solid rgba(255,255,255,.12); border-radius:10px; }
+        .footer-bottom{ padding-top:22px; display:flex; justify-content:space-between; gap:20px; color:#70849e; font-size:10px; }
+
+        /* ========================================================= WHATSAPP ========================================================= */
+        .whatsapp{ position:fixed; z-index:900; right:22px; bottom:22px; width:57px; height:57px; display:grid; place-items:center; border-radius:50%; background:var(--green); color:#fff; font-size:25px; box-shadow: 0 12px 30px rgba(32,200,117,.3); animation: whatsappPulse 2.5s infinite; }
+        @keyframes whatsappPulse{ 50%{ box-shadow: 0 15px 40px rgba(32,200,117,.5); } }
+
+        /* ========================================================= SCROLL REVEAL (MUNCUL SATU PERSATU RINGAN) ========================================================= */
+        .reveal{ opacity:0; transform: translateY(25px); transition: opacity .6s ease, transform .6s ease; will-change: opacity, transform; }
+        .reveal.show{ opacity:1; transform:translateY(0); }
+
+        @media(max-width:950px){
+            .nav-menu{ position:absolute; left:20px; right:20px; top:70px; display:none; flex-direction:column; align-items:stretch; padding:15px; background:var(--navy); border: 1px solid rgba(255,255,255,.1); border-radius:18px; box-shadow:var(--shadow); }
+            .nav-menu.open{ display:flex; }
+            .nav-menu a{ color:#fff!important; padding:10px 12px; }
+            .nav-button{ justify-content:center; background:#fff!important; color:var(--navy)!important; }
+            .menu-toggle{ display:block; }
+            .hero{ padding:110px 0 75px; }
+            .hero-grid, .about-grid{ grid-template-columns:1fr; }
+            .blog-grid{ grid-template-columns:1fr; }
+            .hero-panel{ min-height:400px; }
+            .value-grid, .service-grid{ grid-template-columns: repeat(2,1fr); }
+            .why-grid, .testimonial-grid{ grid-template-columns: repeat(2,1fr); }
+            .process-grid{ grid-template-columns: repeat(2,1fr); gap:35px; }
+            .process-grid::before{ display:none; }
+            .footer-grid{ grid-template-columns: 1fr 1fr; }
+        }
+
+        @media(max-width:600px){
+            section{ padding:75px 0; }
+            .container{ width: min( calc(100% - 28px), 1160px ); }
+            .header{ padding:12px 0; }
+            .header.scrolled{ padding:10px 0; }
+            .logo img{ height:44px; }
+            .footer-logo img{ height:40px; }
+            .hero{ padding-top:95px; }
+            .hero h1{ font-size:36px; }
+            .hero-text{ font-size:15px; }
+            .hero-buttons{ display:grid; }
+            .btn{ width:100%; }
+            .hero-panel{ padding:22px; min-height:370px; }
+            .hero-floating{ right:10px; bottom:18px; }
+            .trust-grid{ grid-template-columns: repeat(2,1fr); }
+            .trust-item{ border-bottom: 1px solid var(--border); }
+            .trust-item:nth-child(2){ border-right:0; }
+            .trust-item:nth-child(3), .trust-item:nth-child(4){ border-bottom:0; }
+            .about-visual{ min-height:390px; padding:25px; }
+            .about-big{ left:25px; }
+            .about-big div{ font-size:45px; }
+            .about-quote{ left:20px; right:20px; bottom:20px; }
+            .about-quote p{ font-size:17px; }
+            .value-grid, .service-grid, .why-grid, .testimonial-grid{ grid-template-columns:1fr; }
+            .process-grid{ grid-template-columns:1fr; gap:28px; }
+            .testimonial p{ min-height:auto; margin-bottom:20px; }
+            .cta-box{ display:block; padding:38px 25px; }
+            .cta-box .btn{ margin-top:25px; }
+            .footer-grid{ grid-template-columns:1fr; }
+            .footer-bottom{ display:block; }
+            .footer-bottom span{ display:block; margin-top:7px; }
+            .whatsapp{ width:53px; height:53px; right:15px; bottom:15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <div class="container nav">
+            <a href="https://partnerandalankita.com" class="logo">
+                <img src="logo.png" alt="Logo Partner Andalan Kita">
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#proses">Proses</a>
+                <a href="#faq">FAQ</a>
+                <a href="portfolio.html">Portofolio</a>
+                <a href="https://wa.me/6287780112957" target="_blank" class="nav-button">
+                    <i class="fa-brands fa-whatsapp"></i> Konsultasi
+                </a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <h1>Urus Legalitas Usaha Lebih <span>Mudah & Transparan.</span></h1>
+                <p class="hero-text">Partner Andalan Kita membantu pengusaha mengurus legalitas, perizinan, dan sertifikasi usaha dengan proses yang jelas, harga kompetitif, serta pendampingan dari awal hingga selesai.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/6287780112957" target="_blank" class="btn btn-primary">
+                        <i class="fa-brands fa-whatsapp"></i> Konsultasi Gratis
+                    </a>
+                </div>
+            </div>
+            <div class="hero-panel reveal">
+                <div class="panel-header">
+                    <div>
+                        <span class="panel-label">Solusi Usaha</span>
+                        <h3>Satu Partner, Berbagai Kebutuhan</h3>
+                    </div>
+                    <div class="online"></div>
+                </div>
+                <div class="panel-services">
+                    <div class="panel-service">
+                        <div class="panel-service-icon"><i class="fa-solid fa-building"></i></div>
+                        <div>
+                            <strong>Pendirian Badan Usaha</strong>
+                            <small>PT, CV, Yayasan & lainnya</small>
+                        </div>
+                    </div>
+                    <div class="panel-service">
+                        <div class="panel-service-icon"><i class="fa-solid fa-file-shield"></i></div>
+                        <div>
+                            <strong>Perizinan Usaha</strong>
+                            <small>Perizinan operasional & OSS</small>
+                        </div>
+                    </div>
+                    <div class="panel-service">
+                        <div class="panel-service-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <strong>Sertifikasi Usaha</strong>
+                            <small>Halal, Merek, CDAKB, CDOB & lainnya</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <div class="trust">
+        <div class="container trust-grid">
+            <div class="trust-item reveal">
+                <strong>2024</strong>
+                <span>Berdiri sejak</span>
+            </div>
+            <div class="trust-item reveal">
+                <strong>4+</strong>
+                <span>Kategori layanan</span>
+            </div>
+            <div class="trust-item reveal">
+                <strong>100%</strong>
+                <span>Transparansi proses</span>
+            </div>
+            <div class="trust-item reveal">
+                <strong>ID</strong>
+                <span>Seluruh Indonesia</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="tentang">
+        <div class="container about-grid">
+            <div class="about-visual reveal">
+                <div class="about-big">
+                    <div>Partner</div>
+                    <div>Andalan Kita</div>
+                </div>
+                <div class="about-quote">
+                    <p>“Transparan Prosesnya, Kompetitif Harganya, Jelas Solusinya.”</p>
+                    <small>Partner Andalan Kita</small>
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <span class="badge">Tentang Kami</span>
+                <h2>Partner yang memahami kebutuhan pengusaha.</h2>
+                <p>Partner Andalan Kita didirikan pada tahun 2024 oleh owner yang profesional dan berpengalaman, dengan tujuan membantu pengusaha yang mengalami kendala dalam mengurus legalitas, perizinan, dan sertifikasi usaha, terutama terkait proses dan biaya.</p>
+                <p>Dengan mengutamakan proses yang transparan, harga yang kompetitif, dan solusi yang jelas, Partner Andalan Kita terus mengembangkan layanan untuk memenuhi kebutuhan para pelaku usaha.</p>
+                <ul class="checks">
+                    <li><i class="fa-solid fa-circle-check"></i> Proses mudah dipahami</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Harga kompetitif sesuai kebutuhan</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Pendampingan yang jelas</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Melayani klien dari seluruh Indonesia</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="layanan">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="badge">Layanan Kami</span>
+                <h2>Solusi legalitas usaha dalam satu partner.</h2>
+                <p>Pilih kategori layanan yang Anda butuhkan.</p>
+            </div>
+
+            <!-- TABS -->
+            <div class="services-tabs reveal">
+                <button class="tab active" data-tab="badan-usaha">Badan Usaha</button>
+                <button class="tab" data-tab="perizinan">Perizinan</button>
+                <button class="tab" data-tab="sertifikasi">Sertifikasi</button>
+                <button class="tab" data-tab="lainnya">Lainnya</button>
+            </div>
+
+            <!-- PANEL: BADAN USAHA -->
+            <div class="service-panel active" id="badan-usaha">
+                <div class="service-grid" id="grid-badan-usaha"></div>
+            </div>
+
+            <!-- PANEL: PERIZINAN -->
+            <div class="service-panel" id="perizinan">
+                <div class="service-grid" id="grid-perizinan"></div>
+            </div>
+
+            <!-- PANEL: SERTIFIKASI -->
+            <div class="service-panel" id="sertifikasi">
+                <div class="service-grid" id="grid-sertifikasi"></div>
+            </div>
+
+            <!-- PANEL: LAINNYA -->
+            <div class="service-panel" id="lainnya">
+                <div class="service-grid" id="grid-lainnya"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO BACKLINK NETWORK & BLOG SECTION (Saling Terhubung) -->
+    <section class="seo-blog-section">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Pusat Informasi &amp; Panduan Legalitas Bisnis</h2>
+                <p>Artikel pendukung untuk memperkuat otoritas domain <strong>partnerandalankita.com</strong> di mesin pencari.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card reveal">
+                    <h3>Syarat dan Cara Mendirikan PT Resmi Terbaru</h3>
+                    <p>Ketahui dokumen yang diperlukan, alur pengesahan Kemenkumham, serta estimasi biaya pendirian PT bersama kami.</p>
+                    <a href="https://partnerandalankita.com" target="_blank" class="blog-link">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                </article>
+                <article class="blog-card reveal">
+                    <h3>Panduan Pengurusan Izin Edar Alat Kesehatan (IDAK &amp; CDAKB)</h3>
+                    <p>Pentingnya sertifikasi CDAKB dan IDAK bagi distributor alkes agar bisnis Anda beroperasi secara legal sesuai regulasi.</p>
+                    <a href="https://partnerandalankita.com" target="_blank" class="blog-link">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                </article>
+                <article class="blog-card reveal">
+                    <h3>Keuntungan Memiliki Legalitas Usaha NIB dan CV Bagi UMKM</h3>
+                    <p>Dapatkan kemudahan akses permodalan dan tender proyek dengan mengurus legalitas usaha Anda bersama biro jasa terpercaya.</p>
+                    <a href="https://partnerandalankita.com" target="_blank" class="blog-link">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="why">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="badge" style="background:rgba(255,255,255,.1); color:#76d7ff;">Kenapa Kami</span>
+                <h2>Dirancang untuk membuat urusan legalitas lebih sederhana.</h2>
+                <p>Fokus kami membantu pengusaha memahami kebutuhan dan proses legalitas usahanya.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h3>Analisis Kebutuhan</h3>
+                    <p>Membantu mengidentifikasi layanan yang sesuai dengan kebutuhan usaha.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-comments"></i>
+                    <h3>Komunikasi Jelas</h3>
+                    <p>Informasi proses dan dokumen disampaikan dengan bahasa yang mudah dipahami.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h3>Harga Kompetitif</h3>
+                    <p>Penawaran disesuaikan dengan jenis dan kompleksitas layanan.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-handshake"></i>
+                    <h3>Pendampingan</h3>
+                    <p>Tim mendampingi proses dari pengumpulan data hingga dokumen selesai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="proses">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="badge">Alur Kerja</span>
+                <h2>Proses yang jelas dari awal sampai selesai.</h2>
+                <p>Tidak perlu bingung harus mulai dari mana.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-card reveal">
+                    <div class="process-number">01</div>
+                    <h3>Konsultasi Gratis</h3>
+                    <p>Diskusikan kebutuhan legalitas dengan tim kami.</p>
+                </div>
+                <div class="process-card reveal">
+                    <div class="process-number">02</div>
+                    <h3>Pengumpulan Data</h3>
+                    <p>Kami membantu mengidentifikasi dan mengumpulkan dokumen.</p>
+                </div>
+                <div class="process-card reveal">
+                    <div class="process-number">03</div>
+                    <h3>Proses Perizinan</h3>
+                    <p>Tim mengurus proses sesuai ketentuan yang berlaku.</p>
+                </div>
+                <div class="process-card reveal">
+                    <div class="process-number">04</div>
+                    <h3>Izin Terbit</h3>
+                    <p>Dokumen hasil proses diserahkan kepada Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="badge">Testimoni</span>
+                <h2>Pengalaman dari para klien kami.</h2>
+                <p>Kepuasan klien adalah prioritas dalam setiap pendampingan.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>“Pelayanan Partner Andalan Kita sangat profesional. Proses perizinan apotek saya selesai tepat waktu dan didampingi dengan sangat baik.”</p>
+                    <strong>Gama Pratama</strong>
+                    <small>Apotek Gama Pratama</small>
+                </div>
+                <div class="testimonial reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>“Tim Partner Andalan Kita sangat responsif. Pengurusan IDAK untuk perusahaan kami berjalan lancar, bahkan untuk luar Jabodetabek.”</p>
+                    <strong>PT Mandika Atus Gratia</strong>
+                    <small>Klien</small>
+                </div>
+                <div class="testimonial reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>“Sangat terbantu dengan layanan pendirian PT. Alurnya jelas dan mudah dipahami. Terima kasih Partner Andalan Kita!”</p>
+                    <strong>PT Tekno Renjana Aksata</strong>
+                    <small>Klien</small>
+                </div>
+                <div class="testimonial reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>“Kami puas dengan layanan Sertifikasi Halal. Prosesnya transparan dan timnya memberikan pendampingan yang maksimal.”</p>
+                    <strong>Edisan Garden Resto</strong>
+                    <small>Klien</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="badge">FAQ</span>
+                <h2>Pertanyaan yang sering ditanyakan.</h2>
+                <p>Temukan jawaban seputar layanan dan proses perizinan kami.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq reveal">
+                    <button class="faq-question">
+                        <span>Apakah melayani seluruh Indonesia?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ya. Partner Andalan Kita melayani klien dari seluruh Indonesia. Untuk beberapa layanan kesehatan terdapat prioritas wilayah Jabodetabek.</p>
+                    </div>
+                </div>
+                <div class="faq reveal">
+                    <button class="faq-question">
+                        <span>Apakah harga masih bisa dinegosiasikan?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Harga dapat dinegosiasikan dan disesuaikan dengan kebutuhan serta kompleksitas layanan.</p>
+                    </div>
+                </div>
+                <div class="faq reveal">
+                    <button class="faq-question">
+                        <span>Berapa lama proses pengurusan?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Durasi berbeda-beda tergantung jenis perizinan, kelengkapan dokumen, dan proses instansi terkait. Estimasi akan disampaikan saat konsultasi.</p>
+                    </div>
+                </div>
+                <div class="faq reveal">
+                    <button class="faq-question">
+                        <span>Apakah harga sudah termasuk pajak dan biaya izin baru?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Harga layanan tidak termasuk pajak dan biaya izin baru apabila ada. Detail biaya akan dijelaskan secara transparan sebelum proses dimulai.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-box reveal">
+                <div>
+                    <h2>Sudah siap membuat legalitas usaha Anda lebih jelas?</h2>
+                    <p>Konsultasikan kebutuhan usaha Anda bersama Partner Andalan Kita.</p>
+                </div>
+                <a href="https://wa.me/6287780112957" target="_blank" class="btn btn-primary">
+                    <i class="fa-brands fa-whatsapp"></i> Hubungi Kami
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Logo Partner Andalan Kita">
+                    </div>
+                    <p>Partner legalitas, perizinan, dan sertifikasi usaha dengan proses transparan, harga kompetitif, dan solusi yang jelas.</p>
+                    <div class="socials">
+                        <a href="https://wa.me/6287780112957" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/partnerandalankita?stkn=MTVleHQ4czZrdDNlYg==" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1EjwwA1Ywo/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@partnerandalankita" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://share.google/B5f6YQeTmyyhZRQkQ" target="_blank" title="Google Bisnis"><i class="fa-solid fa-location-dot"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <a href="#layanan">Badan Usaha</a>
+                    <a href="#layanan">Perizinan Usaha</a>
+                    <a href="#layanan">Sertifikasi Usaha</a>
+                    <a href="#layanan">Layanan Lainnya</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Navigasi & Portofolio</h4>
+                    <a href="#tentang">Tentang Kami</a>
+                    <a href="#layanan">Daftar Layanan</a>
+                    <a href="portfolio.html">Portofolio Kami</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <p>Jalan swadaya 1 RT. 04 RW. 08 No. 82, Kel. Sukamaju Baru, Kec. Tapos, Kota Depok, Provinsi Jawa Barat, Kode pos 16455 (Note : Pagar Hijau)</p>
+                    <a href="https://wa.me/6287780112957" target="_blank">+62 877-8011-2957</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024–2026 Partner Andalan Kita. All rights reserved. (partneranadalankita.com)</p>
+                <span>Transparan Prosesnya &bull; Kompetitif Harganya &bull; Jelas Solusinya</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <a href="https://wa.me/6287780112957" target="_blank" class="whatsapp" aria-label="WhatsApp Chat">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        /* =========================================================
+           KONFIGURASI BACKEND GOOGLE SHEETS
+           Ganti GOOGLE_SHEET_CSV_URL dengan link CSV dari:
+           Google Sheets -> File -> Bagikan -> Publikasikan ke web -> Pilih sheet "Daftar Layanan" & format "CSV"
+           ========================================================= */
+        const GOOGLE_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTlnz4s5DvW6mc30FqaKmzY9VqIWh_jeaIfibKlm6-HynU5fWMxaPFBcRV2KgWm8t64bRF_L__fd8cT/pub?gid=2033921283&single=true&output=csv";
+
+        /* Data Cadangan Otomatis (dari file Excel Anda) jika Google Sheets belum dihubungkan / offline */
+        const FALLBACK_SERVICES = [
+  {
+    "ID": 1,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Commanditaire Vennootschap (CV)",
+    "Harga Tampil": "Rp. 2.800.000",
+    "Nominal Harga (Rp)": 2800000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian CV?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20CV%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-building",
+    "Ribbon": "Populer"
+  },
+  {
+    "ID": 2,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Perkumpulan",
+    "Harga Tampil": "Rp. 4.000.000",
+    "Nominal Harga (Rp)": 4000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian perkumpulan?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20perkumpulan%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-users",
+    "Ribbon": ""
+  },
+  {
+    "ID": 3,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Perseroan Perorangan",
+    "Harga Tampil": "Rp. 500.000",
+    "Nominal Harga (Rp)": 500000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian perseroan perorangan?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20perseroan%20perorangan%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-user",
+    "Ribbon": ""
+  },
+  {
+    "ID": 4,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Perseroan Terbatas (PT) Modal < 1 M",
+    "Harga Tampil": "Rp. 3.300.000",
+    "Nominal Harga (Rp)": 3300000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian PT Modal <1 M?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20PT%20Modal%20%3C1%20M%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-building-columns",
+    "Ribbon": ""
+  },
+  {
+    "ID": 5,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Perseroan Terbatas (PT) Modal > 1 M",
+    "Harga Tampil": "Rp. 3.800.000",
+    "Nominal Harga (Rp)": 3800000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian PT Modal > 1 M?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20PT%20Modal%20%3E%201%20M%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-building-columns",
+    "Ribbon": ""
+  },
+  {
+    "ID": 6,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Perseroan Terbatas (PT) Modal > 5 M",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian PT Modal > 5 M?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20PT%20Modal%20%3E%205%20M%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-building-columns",
+    "Ribbon": ""
+  },
+  {
+    "ID": 7,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Perseroan Terbatas (PT) PMA",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian PT PMA?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20PT%20PMA%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-globe",
+    "Ribbon": ""
+  },
+  {
+    "ID": 8,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Yayasan",
+    "Harga Tampil": "Rp. 3.000.000",
+    "Nominal Harga (Rp)": 3000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk pendirian yayasan?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20pendirian%20yayasan%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-hand-holding-heart",
+    "Ribbon": ""
+  },
+  {
+    "ID": 9,
+    "Kategori": "Badan Usaha",
+    "Nama Layanan": "Buka Cabang/Pembubaran/Perubahan",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "saya tertarik untuk perubahan/pembubaran/buka cabang badan usaha?",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=saya%20tertarik%20untuk%20perubahan%2Fpembubaran%2Fbuka%20cabang%20badan%20usaha%3F",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-pen-to-square",
+    "Ribbon": ""
+  },
+  {
+    "ID": 10,
+    "Kategori": "Perizinan",
+    "Nama Layanan": "Apotek",
+    "Harga Tampil": "Rp. 10.000.000",
+    "Nominal Harga (Rp)": 10000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Izin operasional dan Sertifikat Standar Terverifikasi.",
+    "Rincian / Fasilitas": "Perseroan Perorangan jika belum memiliki PT; Izin operasional & Sertifikat Standar Terverifikasi; Draft dokumen & SOP; Layout, Mapping & Geotag; SIP Apoteker & Tenaga Teknis Kefarmasian; Stiker, Poster/leaflet, SDM & Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Apotek",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Apotek",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-pills",
+    "Ribbon": ""
+  },
+  {
+    "ID": 11,
+    "Kategori": "Perizinan",
+    "Nama Layanan": "Klinik",
+    "Harga Tampil": "Rp. 20.000.000",
+    "Nominal Harga (Rp)": 20000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Pendampingan izin operasional klinik secara menyeluruh.",
+    "Rincian / Fasilitas": "Izin operasional & Sertifikat Standar Terverifikasi; Draft dokumen, SOP, Layout, Mapping & Geotag; SIP Dokter & Perawat; Stiker, Poster/leaflet, SDM selain dokter; Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Klinik",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Klinik",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-hospital",
+    "Ribbon": ""
+  },
+  {
+    "ID": 12,
+    "Kategori": "Perizinan",
+    "Nama Layanan": "Praktek Mandiri Dokter",
+    "Harga Tampil": "Rp. 10.000.000",
+    "Nominal Harga (Rp)": 10000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Pengurusan izin operasional praktik mandiri dokter.",
+    "Rincian / Fasilitas": "Izin operasional; Draft dokumen & SOP; Layout, Mapping & Geotag; SIP Dokter, Stiker, Poster/leaflet; Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Praktek Mandiri Dokter",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Praktek%20Mandiri%20Dokter",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-user-doctor",
+    "Ribbon": ""
+  },
+  {
+    "ID": 13,
+    "Kategori": "Perizinan",
+    "Nama Layanan": "Distributor Alat Kesehatan",
+    "Harga Tampil": "Rp. 10.000.000",
+    "Nominal Harga (Rp)": 10000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Pengurusan izin distributor alat kesehatan.",
+    "Rincian / Fasilitas": "Izin operasional & Sertifikat Standar Terverifikasi; Draft dokumen, SOP, Layout, Mapping & Geotag; Penanggung Jawab Teknis & SDM; Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Distributor Alat Kesehatan",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Distributor%20Alat%20Kesehatan",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-box-archive",
+    "Ribbon": ""
+  },
+  {
+    "ID": 14,
+    "Kategori": "Perizinan",
+    "Nama Layanan": "Pedagang Besar Farmasi",
+    "Harga Tampil": "Rp. 10.000.000",
+    "Nominal Harga (Rp)": 10000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Pendampingan pengurusan Pedagang Besar Farmasi.",
+    "Rincian / Fasilitas": "Izin operasional & Sertifikat Standar Terverifikasi; Draft dokumen, SOP, Layout, Mapping & Geotag; Penanggung Jawab Teknis & SDM; Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Pedagang Besar Farmasi",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Pedagang%20Besar%20Farmasi",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-warehouse",
+    "Ribbon": ""
+  },
+  {
+    "ID": 15,
+    "Kategori": "Sertifikasi",
+    "Nama Layanan": "Cara Distribusi Alat Kesehatan yang Baik",
+    "Harga Tampil": "Rp. 20.000.000",
+    "Nominal Harga (Rp)": 20000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Sertifikasi Cara Distribusi Alat Kesehatan yang Baik.",
+    "Rincian / Fasilitas": "Certificate & Sertifikat Standar Terverifikasi; Draft docs, SOP & Layout; Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Cara Distribusi Alat Kesehatan yang Baik",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Cara%20Distribusi%20Alat%20Kesehatan%20yang%20Baik",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-shield-halved",
+    "Ribbon": "Populer"
+  },
+  {
+    "ID": 16,
+    "Kategori": "Sertifikasi",
+    "Nama Layanan": "Cara Distribusi Obat yang Baik",
+    "Harga Tampil": "Rp. 20.000.000",
+    "Nominal Harga (Rp)": 20000000,
+    "Jenis Harga": "Tetap",
+    "Deskripsi": "Sertifikasi Cara Distribusi Obat yang Baik.",
+    "Rincian / Fasilitas": "Certificate & Sertifikat Standar Terverifikasi; Draft docs, SOP & Layout; Free pendampingan",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Cara Distribusi Obat yang Baik",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Cara%20Distribusi%20Obat%20yang%20Baik",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-shield-halved",
+    "Ribbon": ""
+  },
+  {
+    "ID": 17,
+    "Kategori": "Sertifikasi",
+    "Nama Layanan": "Sertifikasi Halal Regular",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Sertifikasi Halal Regular",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Sertifikasi%20Halal%20Regular",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-stamp",
+    "Ribbon": ""
+  },
+  {
+    "ID": 18,
+    "Kategori": "Sertifikasi",
+    "Nama Layanan": "Hak Merek",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Hak Merek",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Hak%20Merek",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-copyright",
+    "Ribbon": ""
+  },
+  {
+    "ID": 19,
+    "Kategori": "Sertifikasi",
+    "Nama Layanan": "Sertifikasi Badan Usaha Jasa Konstruksi",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Sertifikasi Badan Usaha Jasa Konstruksi",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Sertifikasi%20Badan%20Usaha%20Jasa%20Konstruksi",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-hard-hat",
+    "Ribbon": ""
+  },
+  {
+    "ID": 20,
+    "Kategori": "Sertifikasi",
+    "Nama Layanan": "SKK / SKA",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan SKK / SKA",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20SKK%20%2F%20SKA",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-id-card",
+    "Ribbon": ""
+  },
+  {
+    "ID": 21,
+    "Kategori": "Lainnya",
+    "Nama Layanan": "NIB Perorangan",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan NIB Perorangan",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20NIB%20Perorangan",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-file-lines",
+    "Ribbon": ""
+  },
+  {
+    "ID": 22,
+    "Kategori": "Lainnya",
+    "Nama Layanan": "Alat Kesehatan",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Alat Kesehatan",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Alat%20Kesehatan",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-laptop-file",
+    "Ribbon": ""
+  },
+  {
+    "ID": 23,
+    "Kategori": "Lainnya",
+    "Nama Layanan": "Lainnya",
+    "Harga Tampil": "",
+    "Nominal Harga (Rp)": "",
+    "Jenis Harga": "Tanpa Harga",
+    "Deskripsi": "",
+    "Rincian / Fasilitas": "",
+    "Teks WhatsApp": "Halo, saya tertarik dengan layanan Lainnya",
+    "Link WhatsApp": "https://wa.me/6287780112957?text=Halo%2C%20saya%20tertarik%20dengan%20layanan%20Lainnya",
+    "Status": "Aktif",
+    "Ikon": "fa-solid fa-headset",
+    "Ribbon": ""
+  }
+];
+
+        /* HEADER SCROLL */
+        const header = document.getElementById("header");
+        window.addEventListener("scroll", () => {
+            header.classList.toggle("scrolled", window.scrollY > 40);
+        });
+
+        /* MOBILE MENU */
+        const menuToggle = document.getElementById("menuToggle");
+        const navMenu = document.getElementById("navMenu");
+        menuToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("open");
+            menuToggle.innerHTML = navMenu.classList.contains("open") ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+        });
+        document.querySelectorAll(".nav-menu a").forEach(link => {
+            link.addEventListener("click", () => {
+                navMenu.classList.remove("open");
+                menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            });
+        });
+
+        /* SERVICE TABS */
+        const tabs = document.querySelectorAll(".tab");
+        const panels = document.querySelectorAll(".service-panel");
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                tabs.forEach(item => item.classList.remove("active"));
+                panels.forEach(panel => panel.classList.remove("active"));
+                tab.classList.add("active");
+                const target = document.getElementById(tab.dataset.tab);
+                if (target) target.classList.add("active");
+                observeReveal();
+            });
+        });
+
+        /* DELEGASI KLIK TOMBOL DETAIL LAYANAN (Support elemen dinamis dari Google Sheets) */
+        document.addEventListener("click", (e) => {
+            const btn = e.target.closest(".detail-btn");
+            if (btn) {
+                const card = btn.closest(".service-card");
+                if (card) card.classList.toggle("open");
+            }
+        });
+
+        /* FAQ */
+        document.querySelectorAll(".faq-question").forEach(button => {
+            button.addEventListener("click", () => {
+                const current = button.closest(".faq");
+                document.querySelectorAll(".faq").forEach(item => {
+                    if (item !== current) item.classList.remove("open");
+                });
+                current.classList.toggle("open");
+            });
+        });
+
+        /* SCROLL REVEAL */
+        let revealObserver;
+        function observeReveal() {
+            if (revealObserver) revealObserver.disconnect();
+            revealObserver = new IntersectionObserver(
+                entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("show");
+                            revealObserver.unobserve(entry.target);
+                        }
+                    });
+                },
+                { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+            );
+            document.querySelectorAll(".reveal:not(.show)").forEach(element => {
+                revealObserver.observe(element);
+            });
+        }
+
+        /* FORMAT HARGA OTOMATIS DARI KOLOM GOOGLE SHEETS */
+        function formatHargaLayanan(row) {
+            const hargaTampil = (row["Harga Tampil"] !== undefined && row["Harga Tampil"] !== null) ? String(row["Harga Tampil"]).trim() : "";
+            const nominal = (row["Nominal Harga (Rp)"] !== undefined && row["Nominal Harga (Rp)"] !== null) ? String(row["Nominal Harga (Rp)"]).replace(/[^0-9]/g, "") : "";
+            const jenisHarga = (row["Jenis Harga"] || "").trim().toLowerCase();
+
+            if (jenisHarga === "tanpa harga" || (!hargaTampil && !nominal)) {
+                return "";
+            }
+
+            if (hargaTampil && isNaN(Number(hargaTampil.replace(/[.,]/g, "")))) {
+                return hargaTampil;
+            }
+
+            const angkaStr = hargaTampil.replace(/[^0-9]/g, "") || nominal;
+            if (!angkaStr) return "";
+
+            const val = Number(angkaStr);
+            if (!val) return "";
+
+            const formattedBase = "Rp. " + val.toLocaleString("id-ID");
+
+            if (jenisHarga === "mulai dari") return "Mulai " + formattedBase;
+            if (jenisHarga === "per periode") return formattedBase + " / bulan";
+            return formattedBase;
+        }
+
+        /* ESCAPE HTML AMAN */
+        function escapeHTML(str) {
+            return String(str || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;");
+        }
+
+        /* RENDER KARTU LAYANAN KE DALAM PANEL YANG SESUAI */
+        function renderServices(servicesList) {
+            const grids = {
+                "badan usaha": document.getElementById("grid-badan-usaha"),
+                "perizinan": document.getElementById("grid-perizinan"),
+                "sertifikasi": document.getElementById("grid-sertifikasi"),
+                "lainnya": document.getElementById("grid-lainnya")
+            };
+
+            Object.values(grids).forEach(grid => { if (grid) grid.innerHTML = ""; });
+
+            servicesList.forEach(item => {
+                const status = String(item["Status"] || "Aktif").trim().toLowerCase();
+                if (status !== "aktif") return;
+
+                const kategoriKey = String(item["Kategori"] || "Lainnya").trim().toLowerCase();
+                const targetGrid = grids[kategoriKey] || grids["lainnya"];
+                if (!targetGrid) return;
+
+                const nama = item["Nama Layanan"] || "";
+                const harga = formatHargaLayanan(item);
+                const deskripsi = String(item["Deskripsi"] || "").trim();
+                const rincianRaw = String(item["Rincian / Fasilitas"] || "").trim();
+                const ikon = String(item["Ikon"] || "fa-solid fa-file-shield").trim();
+                const ribbon = String(item["Ribbon"] || "").trim();
+
+                let detailSectionHTML = "";
+                if (rincianRaw) {
+                    let detailInner = "";
+                    if (rincianRaw.includes(";")) {
+                        const points = rincianRaw.split(";").map(s => s.trim()).filter(Boolean);
+                        detailInner = "<ul>" + points.map(p => `<li>${escapeHTML(p)}</li>`).join("") + "</ul>";
+                    } else {
+                        detailInner = `<p>${escapeHTML(rincianRaw)}</p>`;
+                    }
+                    detailSectionHTML = `
+                        <button class="detail-btn">Lihat detail <i class="fa-solid fa-chevron-down"></i></button>
+                        <div class="detail">
+                            ${detailInner}
+                        </div>
+                    `;
+                }
+
+                let waLink = String(item["Link WhatsApp"] || "").trim();
+                if (!waLink) {
+                    const teksWa = String(item["Teks WhatsApp"] || `Halo, saya tertarik dengan layanan ${nama}`).trim();
+                    waLink = `https://wa.me/6287780112957?text=${encodeURIComponent(teksWa)}`;
+                }
+
+                const ribbonHTML = ribbon ? `<span class="ribbon">${escapeHTML(ribbon)}</span>` : "";
+                const priceHTML = harga ? `<div class="price">${escapeHTML(harga)}</div>` : "";
+                const descHTML = deskripsi ? `<p>${escapeHTML(deskripsi)}</p>` : "";
+
+                const cardHTML = `
+                    <div class="service-card reveal">
+                        ${ribbonHTML}
+                        <div class="service-icon"><i class="${escapeHTML(ikon)}"></i></div>
+                        <h3>${escapeHTML(nama)}</h3>
+                        ${priceHTML}
+                        ${descHTML}
+                        ${detailSectionHTML}
+                        <a href="${escapeHTML(waLink)}" target="_blank" class="service-wa" style="${(!harga && !deskripsi && !rincianRaw) ? 'margin-top:auto;' : ''}"><i class="fa-brands fa-whatsapp"></i> Konsultasi via WhatsApp</a>
+                    </div>
+                `;
+
+                targetGrid.insertAdjacentHTML("beforeend", cardHTML);
+            });
+
+            observeReveal();
+        }
+
+        /* PARSER CSV GOOGLE SHEETS (Mendukung tanda kutip & koma di dalam teks) */
+        function parseCSV(csvText) {
+            const rows = [];
+            let currentRow = [];
+            let currentVal = "";
+            let insideQuotes = false;
+
+            for (let i = 0; i < csvText.length; i++) {
+                const char = csvText[i];
+                const nextChar = csvText[i + 1];
+
+                if (char === '"') {
+                    if (insideQuotes && nextChar === '"') {
+                        currentVal += '"';
+                        i++;
+                    } else {
+                        insideQuotes = !insideQuotes;
+                    }
+                } else if (char === "," && !insideQuotes) {
+                    currentRow.push(currentVal);
+                    currentVal = "";
+                } else if ((char === "\n" || (char === "\r" && nextChar === "\n")) && !insideQuotes) {
+                    if (char === "\r") i++;
+                    currentRow.push(currentVal);
+                    rows.push(currentRow);
+                    currentRow = [];
+                    currentVal = "";
+                } else {
+                    currentVal += char;
+                }
+            }
+            if (currentVal || currentRow.length > 0) {
+                currentRow.push(currentVal);
+                rows.push(currentRow);
+            }
+
+            if (rows.length < 2) return [];
+            const headers = rows[0].map(h => h.trim());
+            return rows.slice(1).map(r => {
+                const obj = {};
+                headers.forEach((h, idx) => {
+                    obj[h] = r[idx] !== undefined ? r[idx].trim() : "";
+                });
+                return obj;
+            });
+        }
+
+        /* MUAT DATA REAL-TIME DARI ADMIN & GOOGLE SHEETS */
+        const PAK_EXEC_URL = localStorage.getItem("pak_exec_url") || "https://script.google.com/macros/s/AKfycbxpXADHW5H_tzRfUJ_epNUy_Zm1zNDFsEuGRAKuSZZRlPNsWaXSY15KUciBF_ed1bul-g/exec";
+
+        function applyPakSettingsToIndex(s) {
+            if (!s || typeof s !== "object") return;
+            const r = document.documentElement.style;
+            if (s.primary_color) r.setProperty("--navy", s.primary_color);
+            if (s.secondary_color) r.setProperty("--navy-light", s.secondary_color);
+            if (s.accent_blue) r.setProperty("--blue", s.accent_blue);
+            if (s.accent_cyan) r.setProperty("--cyan", s.accent_cyan);
+            if (s.wa_color) r.setProperty("--green", s.wa_color);
+            if (s.bg_soft) r.setProperty("--soft", s.bg_soft);
+
+            if (s.logo_url) {
+                document.querySelectorAll('img[src*="logo.png"], .logo img, .footer-logo img').forEach(img => img.src = s.logo_url);
+            }
+            const hero = document.querySelector(".hero");
+            if (hero && s.hero_banner_url) {
+                hero.style.background = `linear-gradient(135deg, ${s.primary_color || "#071a35"}dd, ${s.secondary_color || "#0d2d57"}cc), url('${s.hero_banner_url}') center/cover no-repeat`;
+            }
+            const h1 = document.querySelector(".hero h1");
+            if (h1 && s.hero_title) h1.innerHTML = s.hero_title;
+            const hp = document.querySelector(".hero .hero-text");
+            if (hp && s.hero_subtitle) hp.textContent = s.hero_subtitle;
+            const hcta = document.querySelector(".hero .hero-buttons a");
+            if (hcta && s.hero_cta_text) {
+                const ico = hcta.querySelector("i");
+                hcta.textContent = " " + s.hero_cta_text;
+                if (ico) hcta.prepend(ico);
+            }
+            const aboutH2 = document.querySelector("#tentang .about-content h2");
+            if (aboutH2 && s.about_title) aboutH2.textContent = s.about_title;
+            const aboutPs = document.querySelectorAll("#tentang .about-content > p");
+            if (aboutPs[0] && s.about_p1) aboutPs[0].textContent = s.about_p1;
+            if (aboutPs[1] && s.about_p2) aboutPs[1].textContent = s.about_p2;
+
+            const addrP = document.querySelector("footer .footer-col:last-child p");
+            if (addrP && s.office_address) addrP.textContent = s.office_address;
+            const waTextA = document.querySelector("footer .footer-col:last-child a");
+            if (waTextA && s.wa_display) waTextA.textContent = s.wa_display;
+
+            if (s.wa_number) {
+                const cleanWa = String(s.wa_number).replace(/[^0-9]/g, "");
+                document.querySelectorAll('a[href*="wa.me/"]').forEach(a => {
+                    a.href = a.href.replace(/wa\.me\/[0-9]+/, "wa.me/" + cleanWa);
+                });
+            }
+
+            const secMap = {
+                show_about: "#tentang",
+                show_services: "#layanan",
+                show_why: ".why",
+                show_process: "#proses",
+                show_testimonials: ".testimonials",
+                show_faq: "#faq"
+            };
+            Object.keys(secMap).forEach(k => {
+                const el = document.querySelector(secMap[k]);
+                if (el && s[k]) el.style.display = String(s[k]).toUpperCase() === "YA" ? "" : "none";
+            });
+
+            if (s.custom_css) {
+                let st = document.getElementById("pak-custom-css");
+                if (!st) { st = document.createElement("style"); st.id = "pak-custom-css"; document.head.appendChild(st); }
+                st.textContent = s.custom_css;
+            }
+        }
+
+        async function loadServicesFromGoogleSheets() {
+            const localLay = JSON.parse(localStorage.getItem("pak_v2_layanan") || "null");
+            const localCfg = JSON.parse(localStorage.getItem("pak_v2_cfg") || "null");
+            if (localCfg) applyPakSettingsToIndex(localCfg);
+            renderServices(Array.isArray(localLay) && localLay.length ? localLay : FALLBACK_SERVICES);
+
+            try {
+                const res = await fetch(PAK_EXEC_URL + "?action=all&t=" + Date.now(), { redirect: "follow", cache: "no-store" });
+                const txt = await res.text();
+                if (!txt.trim().startsWith("<")) {
+                    const data = JSON.parse(txt);
+                    if (data && data.ok) {
+                        if (Array.isArray(data.layanan) && data.layanan.length) {
+                            localStorage.setItem("pak_v2_layanan", JSON.stringify(data.layanan));
+                            renderServices(data.layanan);
+                            if (localCfg) applyPakSettingsToIndex(localCfg);
+                        }
+                        if (data.settings) {
+                            localStorage.setItem("pak_v2_cfg", JSON.stringify(data.settings));
+                            applyPakSettingsToIndex(data.settings);
+                        }
+                    }
+                }
+            } catch (err) {
+                console.warn("Sinkronisasi Sheets offline, memakai cache terbaru:", err);
+            }
+        }
+
+        window.addEventListener("storage", (e) => {
+            if (e.key === "pak_v2_layanan" && e.newValue) {
+                renderServices(JSON.parse(e.newValue));
+                const c = JSON.parse(localStorage.getItem("pak_v2_cfg") || "null");
+                if (c) applyPakSettingsToIndex(c);
+            }
+            if (e.key === "pak_v2_cfg" && e.newValue) applyPakSettingsToIndex(JSON.parse(e.newValue));
+        });
+
+        loadServicesFromGoogleSheets();
+    </script>
+</body>
+</html>
