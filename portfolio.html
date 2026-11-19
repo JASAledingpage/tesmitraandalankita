@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Andalan Kita | Jasa Legalitas & Perizinan Usaha</title>
+<meta name="description" content="Partner Andalan Kita membantu pelaku usaha dalam legalitas, perizinan, sertifikasi, dan kebutuhan administrasi usaha dengan proses yang transparan dan jelas.">
+<meta name="theme-color" content="#071a35">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+:root{--navy:#071a35;--navy2:#0d2d57;--blue:#1769e0;--cyan:#38bdf8;--white:#fff;--soft:#f5f8fc;--text:#17263c;--muted:#68778d;--border:#e4eaf2;--green:#20c875;--shadow:0 24px 70px rgba(7,26,53,.11)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:85px}body{font-family:'DM Sans',sans-serif;color:var(--text);background:#fff;line-height:1.65}a{text-decoration:none;color:inherit}button,input{font:inherit}.container{width:min(1180px,92%);margin:auto}h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.14}h2{font-size:clamp(31px,4vw,47px);letter-spacing:-.045em}.section{padding:96px 0}.section-head{max-width:720px;margin-bottom:42px}.section-head h2{margin-top:12px}.section-head p{color:var(--muted);margin-top:15px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.eyebrow:before{content:"";width:28px;height:2px;background:var(--cyan)}
+header{position:fixed;z-index:1000;top:0;left:0;width:100%;transition:.25s}header.scrolled{background:rgba(255,255,255,.94);backdrop-filter:blur(16px);box-shadow:0 10px 35px rgba(7,26,53,.08)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;color:#fff;font-family:Manrope;font-weight:800}.scrolled .brand{color:var(--navy)}.brand-mark{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--cyan),var(--blue));color:#fff;box-shadow:0 10px 25px rgba(23,105,224,.28);flex:none}.brand small{display:block;font-family:'DM Sans';font-size:9px;letter-spacing:.1em;text-transform:uppercase;opacity:.68}.navlinks{display:flex;gap:25px;align-items:center}.navlinks a{color:#dbeafe;font-weight:700;font-size:13px}.scrolled .navlinks a{color:var(--text)}.navlinks a:hover{color:var(--cyan)}.nav-cta{padding:11px 17px;border-radius:12px;background:#fff;color:var(--navy)!important}.scrolled .nav-cta{background:var(--navy);color:#fff!important}.menu{display:none;border:0;background:none;color:#fff;font-size:22px;cursor:pointer}.scrolled .menu{color:var(--navy)}.mobile-menu{display:none;background:#fff;border-top:1px solid var(--border);box-shadow:0 18px 30px rgba(7,26,53,.1)}.mobile-menu.open{display:block}.mobile-menu a{display:block;padding:14px 4%;font-weight:700;border-bottom:1px solid var(--border)}
+.hero{min-height:720px;padding:155px 0 115px;background:radial-gradient(circle at 84% 18%,rgba(56,189,248,.2),transparent 29%),radial-gradient(circle at 10% 75%,rgba(23,105,224,.28),transparent 31%),linear-gradient(135deg,#06172e,#0b2850);color:#fff;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(255,255,255,.08);border-radius:50%;right:-160px;bottom:-210px}.hero-grid{display:grid;grid-template-columns:minmax(0,760px);align-items:center}.hero h1{font-size:clamp(43px,5.7vw,72px);letter-spacing:-.06em;margin:18px 0;max-width:760px}.hero h1 span{color:var(--cyan)}.hero p{max-width:680px;color:#bdcce0;font-size:17px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 20px;border-radius:13px;font-weight:800;border:1px solid transparent;transition:.25s;cursor:pointer}.btn-primary{background:var(--cyan);color:var(--navy)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(56,189,248,.23)}.btn-outline{border-color:rgba(255,255,255,.2);color:#fff;background:rgba(255,255,255,.05)}.btn-outline:hover{background:rgba(255,255,255,.1)}
+.trust{background:#fff;box-shadow:0 15px 45px rgba(7,26,53,.08);position:relative;z-index:2;margin-top:-50px;border-radius:22px;padding:23px}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.trust-item{display:flex;align-items:center;gap:12px}.trust-icon{width:42px;height:42px;border-radius:13px;background:#edf6ff;color:var(--blue);display:grid;place-items:center;flex:none}.trust-item strong{display:block;font-size:14px}.trust-item span{display:block;color:var(--muted);font-size:12px}
+.problem{background:var(--soft)}.problem-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.problem-copy p{color:var(--muted);margin-top:17px}.problem-list{display:grid;grid-template-columns:1fr 1fr;gap:13px}.problem-card{background:#fff;border:1px solid var(--border);border-radius:17px;padding:20px;box-shadow:0 8px 28px rgba(7,26,53,.04)}.problem-card i{color:var(--blue);font-size:20px}.problem-card h3{font-size:16px;margin:11px 0 4px}.problem-card p{font-size:13px;color:var(--muted)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}.about-copy p{color:var(--muted);margin:17px 0}.about-points{display:grid;gap:13px;margin-top:25px}.point{display:flex;gap:12px;align-items:flex-start}.point i{color:var(--green);margin-top:5px}.point strong{display:block;font-size:14px}.point span{font-size:13px;color:var(--muted)}.about-card{background:linear-gradient(145deg,#071a35,#0d2d57);color:#fff;border-radius:28px;padding:35px;box-shadow:var(--shadow);position:relative;overflow:hidden}.about-card:after{content:"";position:absolute;width:220px;height:220px;border:1px solid rgba(255,255,255,.1);border-radius:50%;right:-100px;top:-90px}.about-card h3{font-size:25px;max-width:420px}.about-card p{color:#b9c9dd;margin-top:12px}.about-stat{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:25px}.stat{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.05);padding:17px;border-radius:15px}.stat strong{font:800 25px Manrope;display:block;color:var(--cyan)}.stat span{font-size:12px;color:#b9c9dd}
+.services{background:#fff}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service-card{padding:23px;border:1px solid var(--border);border-radius:20px;background:#fff;transition:.25s}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#d7e5f7}.service-card i{color:var(--blue);font-size:21px}.service-card h3{font-size:17px;margin:13px 0 5px}.service-card p{font-size:12.5px;color:var(--muted)}.service-count{font:800 27px Manrope;color:var(--navy)}
+.process{background:var(--soft)}.process-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}.process-card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:21px}.process-num{width:34px;height:34px;border-radius:10px;background:#eaf5ff;color:var(--blue);display:grid;place-items:center;font-weight:800;font-size:13px}.process-card h3{font-size:16px;margin:14px 0 5px}.process-card p{font-size:12.5px;color:var(--muted)}
+.work{background:#fff}.filterbar{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:28px}.filter{border:1px solid var(--border);background:#fff;color:var(--muted);padding:10px 15px;border-radius:12px;font-weight:800;cursor:pointer}.filter.active,.filter:hover{background:var(--navy);border-color:var(--navy);color:#fff}.search{margin-left:auto;min-width:270px;padding:11px 14px;border:1px solid var(--border);border-radius:12px;background:#fff;outline:none}.search:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(23,105,224,.08)}.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.project-card{background:#fff;border:1px solid var(--border);border-radius:21px;padding:21px;transition:.25s;position:relative;overflow:hidden}.project-card:before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,var(--blue),var(--cyan));transform:scaleX(0);transform-origin:left;transition:.25s}.project-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.project-card:hover:before{transform:scaleX(1)}.project-top{display:flex;justify-content:space-between;gap:10px;align-items:center}.year{font-size:11px;font-weight:800;color:var(--blue);background:#edf6ff;padding:6px 9px;border-radius:8px}.project-icon{width:43px;height:43px;border-radius:13px;background:#f0f5fb;color:var(--navy2);display:grid;place-items:center}.project-card h3{font-size:17px;margin:16px 0 7px}.project-type{color:var(--blue);font-size:12.5px;font-weight:800}.project-meta{display:flex;gap:8px;align-items:flex-start;color:var(--muted);font-size:12px;margin-top:13px}.project-meta i{margin-top:4px;color:var(--cyan)}.project-category{display:inline-block;margin-top:11px;padding:5px 8px;background:#f5f8fc;border-radius:7px;font-size:10px;font-weight:800;color:#61728a}.empty{grid-column:1/-1;text-align:center;padding:45px;color:var(--muted);display:none}
+.why{background:var(--navy);color:#fff}.why-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}.why p{color:#aebfd4;margin-top:17px}.why-list{display:grid;gap:12px}.why-item{display:flex;gap:14px;padding:18px;border:1px solid rgba(255,255,255,.1);border-radius:17px;background:rgba(255,255,255,.05)}.why-item i{color:var(--cyan);font-size:19px;margin-top:2px}.why-item strong{display:block}.why-item span{display:block;color:#aebfd4;font-size:12.5px;margin-top:3px}
+.cta{padding:76px 0;background:linear-gradient(135deg,#0d2d57,#071a35);color:#fff}.cta-box{display:flex;justify-content:space-between;gap:30px;align-items:center}.cta p{color:#aec0d7;margin-top:10px}.footer{padding:60px 0 25px;background:#041225;color:#fff}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:45px;padding-bottom:45px;border-bottom:1px solid rgba(255,255,255,.1)}
+.footer-logo{display:flex;align-items:center;margin-bottom:18px}
+.footer-logo img{height:45px;width:auto;display:block;object-fit:contain}
+.footer-col h4{font-size:14px;margin-bottom:16px;color:#fff}
+.footer-col p,.footer-col a{color:#8fa3bb;font-size:12px;line-height:1.7}
+.footer-col a{display:block;margin:8px 0;transition:.2s}
+.footer-col a:hover{color:#fff}
+.socials{display:flex;gap:9px;margin-top:18px;flex-wrap:wrap}
+.socials a{width:36px;height:36px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.12);border-radius:10px;margin:0}
+.footer-bottom{padding-top:22px;display:flex;justify-content:space-between;gap:20px;color:#70849e;font-size:10px}
+@media(max-width:980px){.navlinks{display:none}.menu{display:block}.hero{padding-top:130px}.problem-grid,.about-grid,.why-grid{grid-template-columns:1fr}.trust-grid{grid-template-columns:repeat(2,1fr)}.service-grid{grid-template-columns:repeat(2,1fr)}.process-grid{grid-template-columns:repeat(3,1fr)}.project-grid{grid-template-columns:repeat(2,1fr)}.cta-box{display:block}.cta .btn{margin-top:22px}}
+@media(max-width:620px){.section{padding:74px 0}.hero{min-height:auto;padding-bottom:85px}.hero h1{font-size:43px}.trust{margin-top:-28px;padding:18px}.trust-grid,.service-grid,.project-grid,.process-grid,.problem-list{grid-template-columns:1fr}.search{width:100%;margin-left:0}.filterbar{display:grid;grid-template-columns:repeat(2,1fr)}.filter{width:100%}.footer-grid{grid-template-columns:1fr;gap:30px}.footer-bottom{display:block}.footer-bottom span{display:block;margin-top:7px}.about-card{padding:27px}}
+
+.brand-logo{
+  width:190px;
+  height:52px;
+  object-fit:contain;
+  object-position:left center;
+  display:block;
+}
+.footer .brand-logo{
+  width:210px;
+  height:58px;
+}
+@media(max-width:620px){
+  .brand-logo{width:170px;height:48px}
+  .footer .brand-logo{width:190px;height:54px}
+}
+
+</style>
+</head>
+<body>
+<header id="header">
+<div class="container nav">
+<a class="brand" href="#beranda" aria-label="Partner Andalan Kita"><img class="brand-logo" src="logo.png" alt="Partner Andalan Kita"></a>
+<nav class="navlinks">
+<a href="index.html">Beranda</a><a href="#tentang">Tentang</a><a href="#portofolio">Portofolio</a><a href="#kenapa">Kenapa Kami</a><a class="nav-cta" href="https://wa.me/6287780112957" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Konsultasi</a>
+</nav>
+<button class="menu" id="menuBtn" aria-label="Buka menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+</div>
+<nav class="mobile-menu" id="mobileMenu">
+<a href="index.html">Beranda</a><a href="#tentang">Tentang</a><a href="#portofolio">Portofolio</a><a href="#kenapa">Kenapa Kami</a><a href="https://wa.me/6287780112957" target="_blank" rel="noopener">Konsultasi WhatsApp</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="beranda"><div class="container hero-grid"><div>
+<span class="eyebrow" style="color:#7dd3fc">Partner Andalan Kita</span>
+<h1>Legalitas usaha lebih <span>mudah, jelas, dan tertib.</span></h1>
+<p>Partner Andalan Kita membantu pelaku usaha dalam mengurus legalitas, perizinan, dan sertifikasi dengan proses yang transparan, harga yang kompetitif, dan solusi yang jelas.</p>
+<div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/6287780112957" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Konsultasi WhatsApp</a><a class="btn btn-outline" href="#portofolio">Lihat Portofolio <i class="fa-solid fa-arrow-down"></i></a></div>
+</div></div></section>
+
+<div class="container trust"><div class="trust-grid">
+<div class="trust-item"><div class="trust-icon"><i class="fa-solid fa-building"></i></div><div><strong>Pendirian & Perubahan</strong><span>PT, CV dan perubahan badan usaha</span></div></div>
+<div class="trust-item"><div class="trust-icon"><i class="fa-solid fa-file-circle-check"></i></div><div><strong>Perizinan</strong><span>Perizinan usaha dan operasional</span></div></div>
+<div class="trust-item"><div class="trust-icon"><i class="fa-solid fa-certificate"></i></div><div><strong>Sertifikasi</strong><span>Termasuk CDAKB, halal dan lainnya</span></div></div>
+<div class="trust-item"><div class="trust-icon"><i class="fa-solid fa-location-dot"></i></div><div><strong>Beragam Wilayah</strong><span>Project tercatat dari berbagai daerah</span></div></div>
+</div></div>
+
+<section class="problem section" id="tentang"><div class="container problem-grid"><div class="problem-copy">
+<span class="eyebrow">Masalah yang Kami Bantu</span><h2>Bingung mulai dari mana mengurus legalitas usaha?</h2>
+<p>Legalitas, perizinan, dan sertifikasi memiliki kebutuhan dokumen serta proses yang berbeda. Kami hadir untuk membantu pengusaha memahami kebutuhannya dan mendapatkan pendampingan yang jelas.</p>
+</div><div class="problem-list">
+<article class="problem-card"><i class="fa-solid fa-circle-question"></i><h3>Tidak tahu izin yang dibutuhkan</h3><p>Membantu mengidentifikasi kebutuhan berdasarkan layanan yang tersedia.</p></article>
+<article class="problem-card"><i class="fa-solid fa-file-lines"></i><h3>Bingung dengan dokumen</h3><p>Alur dan kebutuhan dokumen dijelaskan dengan lebih mudah dipahami.</p></article>
+<article class="problem-card"><i class="fa-solid fa-route"></i><h3>Tidak memahami proses</h3><p>Pendampingan diarahkan berdasarkan kebutuhan pekerjaan.</p></article>
+<article class="problem-card"><i class="fa-solid fa-comments"></i><h3>Butuh tempat bertanya</h3><p>Konsultasi dapat dilakukan melalui WhatsApp.</p></article>
+</div></div></section>
+
+<section class="section"><div class="container about-grid"><div class="about-copy">
+<span class="eyebrow">Tentang Partner Andalan Kita</span><h2>Transparan prosesnya, kompetitif harganya, jelas solusinya.</h2>
+<p>Partner Andalan Kita didirikan pada tahun 2024 oleh owner yang profesional dan berpengalaman, dengan tujuan membantu pengusaha yang mengalami kendala dalam mengurus legalitas, perizinan, dan sertifikasi usaha, terutama terkait proses dan biaya.</p>
+<p>Partner Andalan Kita terus mengembangkan layanan untuk memenuhi kebutuhan para pelaku usaha dan melayani klien dari seluruh Indonesia.</p>
+<div class="about-points">
+<div class="point"><i class="fa-solid fa-circle-check"></i><div><strong>Proses mudah dipahami</strong><span>Pendampingan disampaikan dengan alur yang jelas.</span></div></div>
+<div class="point"><i class="fa-solid fa-circle-check"></i><div><strong>Beragam kebutuhan usaha</strong><span>Mulai dari pendirian badan usaha hingga perizinan dan sertifikasi.</span></div></div>
+<div class="point"><i class="fa-solid fa-circle-check"></i><div><strong>Portofolio terdokumentasi</strong><span>Daftar project ditampilkan berdasarkan data yang diberikan.</span></div></div>
+</div></div>
+<aside class="about-card"><span class="eyebrow" style="color:#7dd3fc">Tentang Kami</span><h3>Menjadi partner bagi pelaku usaha dalam mengurus kebutuhan legalitasnya.</h3><p>Fokus layanan: legalitas, perizinan, sertifikasi, dan kebutuhan usaha yang tercatat dalam portofolio.</p><div class="about-stat"><div class="stat"><strong>2024</strong><span>Tahun didirikan</span></div><div class="stat"><strong>3+</strong><span>Tahun project tercatat</span></div></div></aside>
+</div></section>
+
+<section class="work section" id="portofolio"><div class="container"><div class="section-head"><span class="eyebrow">Portofolio</span><h2>Portofolio kami.</h2><p>Cari berdasarkan tahun, kategori, nama perusahaan, wilayah, atau jenis pekerjaan.</p></div>
+<div class="filterbar"><button class="filter active" data-year="all">Semua</button><button class="filter" data-year="2024">2024</button><button class="filter" data-year="2025">2025</button><button class="filter" data-year="2026">2026</button><input class="search" id="search" type="search" placeholder="Cari PT / wilayah / project..." aria-label="Cari project"></div>
+<div class="project-grid" id="projectGrid"></div><div class="empty" id="empty">Project yang dicari tidak ditemukan.</div></div></section>
+
+<section class="why section" id="kenapa"><div class="container why-grid"><div><span class="eyebrow" style="color:#7dd3fc">Kenapa Kami</span><h2 style="margin-top:12px">Pendampingan yang berorientasi pada kebutuhan usaha.</h2><p>Partner Andalan Kita membangun layanan dengan fokus pada proses yang transparan, harga yang kompetitif, dan solusi yang jelas.</p></div>
+<div class="why-list">
+<div class="why-item"><i class="fa-solid fa-eye"></i><div><strong>Transparan</strong><span>Alur pekerjaan dan kebutuhan dokumen dijelaskan dengan jelas.</span></div></div>
+<div class="why-item"><i class="fa-solid fa-hand-holding-dollar"></i><div><strong>Kompetitif</strong><span>Menawarkan harga yang kompetitif sesuai kebutuhan pelaku usaha.</span></div></div>
+<div class="why-item"><i class="fa-solid fa-comments"></i><div><strong>Solusi Jelas</strong><span>Pendampingan diarahkan untuk membantu pengusaha memahami kebutuhannya.</span></div></div>
+<div class="why-item"><i class="fa-solid fa-map-location-dot"></i><div><strong>Jangkauan Indonesia</strong><span>Portofolio mencatat project dari berbagai wilayah di Indonesia.</span></div></div>
+</div></div></section>
+
+<section class="cta"><div class="container cta-box"><div><span class="eyebrow" style="color:#7dd3fc">Butuh Pendampingan?</span><h2 style="margin-top:12px">Masih bingung legalitas apa yang dibutuhkan usaha Anda?</h2><p>Konsultasikan kebutuhan Anda bersama Partner Andalan Kita.</p></div><a class="btn btn-primary" href="https://wa.me/6287780112957" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Konsultasi via WhatsApp</a></div></section>
+</main>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-col">
+<div class="footer-logo">
+<img src="logo.png" alt="Logo Partner Andalan Kita">
+</div>
+<p>Partner legalitas, perizinan, dan sertifikasi usaha dengan proses transparan, harga kompetitif, dan solusi yang jelas.</p>
+<div class="socials">
+<a href="https://wa.me/6287780112957" target="_blank" rel="noopener" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="https://www.instagram.com/partnerandalankita?stkn=MTVleHQ4czZrdDNlYg==" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://id.linkedin.com/in/partner-andalan-kita-69632b31a?utm_source=share&utm_medium=member_mweb&utm_campaign=share_via&utm_content=profile" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+<a href="https://www.facebook.com/share/1EjwwA1Ywo/" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+<a href="https://www.tiktok.com/@partnerandalankita" target="_blank" rel="noopener" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+<a href="https://share.google/B5f6YQeTmyyhZRQkQ" target="_blank" rel="noopener" title="Google Bisnis"><i class="fa-solid fa-location-dot"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Kontak</h4>
+<p>Jalan swadaya 1 RT. 04 RW. 08 No. 82, Kel. Sukamaju Baru, Kec. Tapos, Kota Depok, Provinsi Jawa Barat, Kode pos 16455 (Note : Pagar Hijau)</p>
+<a href="https://wa.me/6287780112957" target="_blank" rel="noopener">+62 877-8011-2957</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2024–2026 Partner Andalan Kita. All rights reserved. (partneranadalankita.com)</p>
+<span>Transparan Prosesnya &bull; Kompetitif Harganya &bull; Jelas Solusinya</span>
+</div>
+</div>
+</footer>
+
+<script>
+const PORTFOLIO_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgIAiUHsSbk-8BsxqCV8DvWWDwUsdleE0vMIioeF273ahZWDhlzFzbtIKWL-1iMDYyIkQKVJLB__Tn/pub?gid=438467709&single=true&output=csv";
+
+/* Data Cadangan Otomatis dari Excel (jika Google Sheets offline / lambat) */
+const FALLBACK_PROJECTS = [
+  [
+    2024,
+    "PT Senarah Cahaya Mulia",
+    "Jakarta Timur",
+    "Perubahan Pengurus PT"
+  ],
+  [
+    2024,
+    "PT Dapur Mbah Mani (Edisan Garden & Resto)",
+    "Depok",
+    "Sertifikasi Halal Resto"
+  ],
+  [
+    2024,
+    "PT Nara Farma Blessed",
+    "Depok",
+    "Pendirian PT"
+  ],
+  [
+    2024,
+    "Apotek Gama Pratama",
+    "Jakarta Timur",
+    "Apotek"
+  ],
+  [
+    2024,
+    "PT. Mandika Atus Gratia",
+    "Bengkulu",
+    "Perpanjangan IDAK"
+  ],
+  [
+    2024,
+    "PT. Jagadita Guna Medika",
+    "Depok",
+    "Perubahan IDAK"
+  ],
+  [
+    2024,
+    "PT. Mandika Atus Gratia",
+    "Bengkulu",
+    "CDAKB"
+  ],
+  [
+    2024,
+    "PT. Jagadita Guna Medika",
+    "Depok",
+    "Akta Perjanjian Kerjasama"
+  ],
+  [
+    2024,
+    "PT. Jagadita Guna Medika",
+    "Depok",
+    "Pelaporan e-report Alkes"
+  ],
+  [
+    2024,
+    "PT. Tekno Renjana Aksata",
+    "Jakarta Utara",
+    "Pendirian PT"
+  ],
+  [
+    2024,
+    "PT. Agrominus Biotech Internasional",
+    "Depok",
+    "Pendirian PT"
+  ],
+  [
+    2024,
+    "PT. Prisma Tekno Perkasa",
+    "Depok",
+    "Pendirian PT"
+  ],
+  [
+    2024,
+    "PT. Prisma Tekno Perkasa",
+    "Depok",
+    "Akta Perjanjian Kerjasama"
+  ],
+  [
+    2024,
+    "PT. Prisma Tekno Perkasa",
+    "Depok",
+    "IDAK"
+  ],
+  [
+    2024,
+    "PT. Prisma Tekno Perkasa",
+    "Depok",
+    "CDAKB"
+  ],
+  [
+    2024,
+    "CV Bonbon Speed Racing Concept",
+    "Majalengka",
+    "Pendirian CV"
+  ],
+  [
+    2024,
+    "PT. Inara Gema Internusa",
+    "Depok",
+    "Perubahan PT"
+  ],
+  [
+    2024,
+    "PT. Inara Gema Internusa",
+    "Depok",
+    "Akta Perjanjian Kerjasama"
+  ],
+  [
+    2024,
+    "PT. Inara Gema Internusa",
+    "Depok",
+    "Perubahan IDAK"
+  ],
+  [
+    2024,
+    "PT. Inara Gema Internusa",
+    "Depok",
+    "CDAKB"
+  ],
+  [
+    2025,
+    "PT. Abyakta Dakara Swastika",
+    "Jakarta Utara",
+    "Pendirian PT"
+  ],
+  [
+    2025,
+    "PT. Abyakta Dakara Swastika",
+    "Jakarta Utara",
+    "Akta Perjanjian Kerjasama"
+  ],
+  [
+    2025,
+    "PT. Abyakta Dakara Swastika",
+    "Jakarta Utara",
+    "IDAK"
+  ],
+  [
+    2025,
+    "PT. Abyakta Dakara Swastika",
+    "Jakarta Utara",
+    "CDAKB"
+  ],
+  [
+    2025,
+    "PT. Ayaskamed Dua Putera",
+    "Kab. Banjar, Kalsel",
+    "Perubahan PJT IDAK 2025"
+  ],
+  [
+    2025,
+    "PT. Antasena Medika Farma / Apotek Antasena Farma",
+    "Kab. Bogor",
+    "Perpanjangan Apotek"
+  ],
+  [
+    2025,
+    "Apotek Antasena Farma",
+    "Kab. Bogor",
+    "Akta Perjanjian Kerjasama"
+  ],
+  [
+    2025,
+    "PT. Seva Vidya Parama",
+    "Jakarta Utara",
+    "Pendirian PT"
+  ],
+  [
+    2025,
+    "PT Bil Kehyr Healthcare",
+    "Malang",
+    "IDAK"
+  ],
+  [
+    2025,
+    "PT Taksima Medika Anugrah",
+    "Bengkulu",
+    "Perpanjangan IDAK"
+  ],
+  [
+    2025,
+    "PT Taksima Medika Anugrah",
+    "Bengkulu",
+    "CDAKB"
+  ],
+  [
+    2025,
+    "PT Sejahtera Afiyat Insani",
+    "Bekasi",
+    "Pendirian PT"
+  ],
+  [
+    2025,
+    "PT Sejahtera Afiyat Insani / Apotek Citra Farma Cibubur",
+    "Bekasi",
+    "Apotek"
+  ],
+  [
+    2025,
+    "Apotek Citra Farma Cibubur",
+    "Bekasi",
+    "Akta Perjanjian Kerjasama"
+  ],
+  [
+    2025,
+    "PT Seva Vidya Parama",
+    "Jakarta Utara",
+    "Perubahan PT"
+  ],
+  [
+    2025,
+    "PT Gjob Sukses Gemilang",
+    "Jakarta Selatan",
+    "NIB"
+  ],
+  [
+    2025,
+    "PT Pematang Gambut Medika",
+    "Kab. Banjar, Kalsel",
+    "IDAK"
+  ],
+  [
+    2025,
+    "PT Safara Medina Internasional",
+    "Jakarta Pusat",
+    "Perubahan PT"
+  ],
+  [
+    2025,
+    "PT Poendjol Jaya Abadi",
+    "Tarakan, Kalimantan Utara",
+    "CDAKB"
+  ],
+  [
+    2025,
+    "PT Taraka Aditya Rakha",
+    "Jakarta Utara",
+    "Pendirian PT"
+  ],
+  [
+    2026,
+    "PT Poendjol Jaya Abadi",
+    "Tarakan, Kalimantan Utara",
+    "RUPST"
+  ],
+  [
+    2026,
+    "PT. Mandika Atus Gratia",
+    "Bengkulu",
+    "LKPM"
+  ],
+  [
+    2026,
+    "PT arthanusa sigma global",
+    "Kab. Sragen, Jawa Tengah",
+    "Pendirian PT"
+  ],
+  [
+    2026,
+    "PT Arafa Karya Nusantara",
+    "Kab. Bogor",
+    "Pendirian PT"
+  ],
+  [
+    2026,
+    "PT Agronus Sinergi Global",
+    "Kab. Mamuju Tengah, Sulawesi Barat",
+    "Pendirian PT"
+  ],
+  [
+    2026,
+    "PT Wayabung Global Network",
+    "Lampung",
+    "HKI"
+  ],
+  [
+    2026,
+    "PT Mahesa Gading",
+    "Jakarta Barat",
+    "Perpanjangan IDAK"
+  ],
+  [
+    2026,
+    "PT Mahesa Gading",
+    "Jakarta Barat",
+    "Pelaporan e-report Alkes"
+  ],
+  [
+    2026,
+    "PT. Ayaskamed Dua Putera",
+    "Kab. Banjar, Kalsel",
+    "Perubahan PJT IDAK 2026"
+  ]
+];
+
+let projects = [...FALLBACK_PROJECTS];
+
+const grid = document.getElementById('projectGrid');
+const empty = document.getElementById('empty');
+const filterBar = document.querySelector('.filterbar');
+const searchInput = document.getElementById('search');
+let activeYear = 'all';
+
+function renderYearFilters() {
+ const years = [...new Set(projects.map(p => String(p[0]).trim()).filter(Boolean))].sort((a, b) => Number(a) - Number(b));
+ if (activeYear !== 'all' && !years.includes(activeYear)) {
+  activeYear = 'all';
+ }
+ filterBar.querySelectorAll('.filter').forEach(btn => btn.remove());
+ const allBtn = document.createElement('button');
+ allBtn.className = 'filter' + (activeYear === 'all' ? ' active' : '');
+ allBtn.dataset.year = 'all';
+ allBtn.textContent = 'Semua';
+ filterBar.insertBefore(allBtn, searchInput);
+
+ years.forEach(yr => {
+  const btn = document.createElement('button');
+  btn.className = 'filter' + (activeYear === yr ? ' active' : '');
+  btn.dataset.year = yr;
+  btn.textContent = yr;
+  filterBar.insertBefore(btn, searchInput);
+ });
+}
+
+filterBar.addEventListener('click', (e) => {
+ const btn = e.target.closest('.filter');
+ if (!btn) return;
+ filterBar.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
+ btn.classList.add('active');
+ activeYear = btn.dataset.year;
+ render();
+});
+
+function escapeHTML(str) {
+ return String(str || '')
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;');
+}
+
+function category(t) {
+ t = String(t || '').toLowerCase();
+ if (/pendirian|perubahan pt|perubahan pengurus/.test(t)) return ['fa-building', 'Legalitas Badan Usaha'];
+ if (/idak|cdakb|alkes|e-report/.test(t)) return ['fa-stethoscope', 'Perizinan Alat Kesehatan'];
+ if (/apotek|dokter/.test(t)) return ['fa-prescription-bottle-medical', 'Apotek & Kesehatan'];
+ if (/halal/.test(t)) return ['fa-certificate', 'Sertifikasi'];
+ if (/kerjasama/.test(t)) return ['fa-file-signature', 'Perjanjian'];
+ if (/hki|nib|lkpm|rupst/.test(t)) return ['fa-file-circle-check', 'Perizinan & Lainnya'];
+ return ['fa-file-circle-check', 'Layanan Usaha'];
+}
+
+function render() {
+ const q = searchInput.value.toLowerCase().trim();
+ const list = projects.filter(p => (activeYear === 'all' || String(p[0]) === activeYear) && p.slice(1).join(' ').toLowerCase().includes(q));
+ grid.innerHTML = list.map(p => {
+  const [icon, cat] = category(p[3]);
+  return `<article class="project-card"><div class="project-top"><span class="year">${escapeHTML(p[0])}</span><span class="project-icon"><i class="fa-solid ${icon}"></i></span></div><h3>${escapeHTML(p[1])}</h3><div class="project-type">${escapeHTML(p[3])}</div><div class="project-meta"><i class="fa-solid fa-location-dot"></i><span>${escapeHTML(p[2])}</span></div></article>`;
+ }).join('');
+ empty.style.display = list.length ? 'none' : 'block';
+}
+
+searchInput.addEventListener('input', render);
+
+const menuBtn = document.getElementById('menuBtn'), mobileMenu = document.getElementById('mobileMenu');
+menuBtn.addEventListener('click', () => {
+ const open = mobileMenu.classList.toggle('open');
+ menuBtn.setAttribute('aria-expanded', open);
+ menuBtn.innerHTML = open ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+});
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+ mobileMenu.classList.remove('open');
+ menuBtn.setAttribute('aria-expanded', 'false');
+ menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+}));
+
+function parseCSV(csvText) {
+ const rows = [];
+ let currentRow = [];
+ let currentVal = '';
+ let insideQuotes = false;
+
+ for (let i = 0; i < csvText.length; i++) {
+  const char = csvText[i];
+  const nextChar = csvText[i + 1];
+  if (char === '"') {
+   if (insideQuotes && nextChar === '"') {
+    currentVal += '"';
+    i++;
+   } else {
+    insideQuotes = !insideQuotes;
+   }
+  } else if (char === ',' && !insideQuotes) {
+   currentRow.push(currentVal);
+   currentVal = '';
+  } else if ((char === '\n' || (char === '\r' && nextChar === '\n')) && !insideQuotes) {
+   if (char === '\r') i++;
+   currentRow.push(currentVal);
+   rows.push(currentRow);
+   currentRow = [];
+   currentVal = '';
+  } else {
+   currentVal += char;
+  }
+ }
+ if (currentVal || currentRow.length > 0) {
+  currentRow.push(currentVal);
+  rows.push(currentRow);
+ }
+ if (rows.length < 2) return [];
+ const headers = rows[0].map(h => h.trim());
+ return rows.slice(1).map(r => {
+  const obj = {};
+  headers.forEach((h, idx) => {
+   obj[h] = r[idx] !== undefined ? r[idx].trim() : '';
+  });
+  return obj;
+ });
+}
+
+const PAK_EXEC_URL = localStorage.getItem("pak_exec_url") || "https://script.google.com/macros/s/AKfycbxpXADHW5H_tzRfUJ_epNUy_Zm1zNDFsEuGRAKuSZZRlPNsWaXSY15KUciBF_ed1bul-g/exec";
+
+function mapPortoRows(arr) {
+ return arr
+  .filter(row => {
+   const tampil = String(row['Tampilkan'] || 'YA').trim().toUpperCase();
+   const klien = String(row['Nama Klien'] || '').trim().toLowerCase();
+   return ['YA', 'YES', 'AKTIF', '1', 'TRUE', ''].includes(tampil) && klien !== 'dr. indah';
+  })
+  .map(row => [
+   row['Tahun'] || '',
+   row['Nama Klien'] || '—',
+   row['Wilayah'] || '-',
+   row['Jenis Pekerjaan'] || '-'
+  ])
+  .filter(item => item[0] !== '' || item[1] !== '—');
+}
+
+function applyPakSettingsToPorto(s) {
+ if (!s || typeof s !== 'object') return;
+ const r = document.documentElement.style;
+ if (s.primary_color) r.setProperty('--navy', s.primary_color);
+ if (s.secondary_color) r.setProperty('--navy2', s.secondary_color);
+ if (s.accent_blue) r.setProperty('--blue', s.accent_blue);
+ if (s.accent_cyan) r.setProperty('--cyan', s.accent_cyan);
+ if (s.wa_color) r.setProperty('--green', s.wa_color);
+ if (s.bg_soft) r.setProperty('--soft', s.bg_soft);
+ if (s.logo_url) document.querySelectorAll('img[src*="logo.png"]').forEach(img => img.src = s.logo_url);
+ const addrP = document.querySelector('footer .footer-col:last-child p');
+ if (addrP && s.office_address) addrP.textContent = s.office_address;
+ const waTextA = document.querySelector('footer .footer-col:last-child a');
+ if (waTextA && s.wa_display) waTextA.textContent = s.wa_display;
+ if (s.wa_number) {
+  const cleanWa = String(s.wa_number).replace(/[^0-9]/g, '');
+  document.querySelectorAll('a[href*="wa.me/"]').forEach(a => a.href = a.href.replace(/wa\.me\/[0-9]+/, 'wa.me/' + cleanWa));
+ }
+ if (s.custom_css) {
+  let st = document.getElementById('pak-custom-css');
+  if (!st) { st = document.createElement('style'); st.id = 'pak-custom-css'; document.head.appendChild(st); }
+  st.textContent = s.custom_css;
+ }
+}
+
+async function loadPortfolioFromGoogleSheets() {
+ const localPorto = JSON.parse(localStorage.getItem('pak_v2_porto') || 'null');
+ const localCfg = JSON.parse(localStorage.getItem('pak_v2_cfg') || 'null');
+ if (localCfg) applyPakSettingsToPorto(localCfg);
+ if (Array.isArray(localPorto) && localPorto.length) {
+  const mappedLocal = mapPortoRows(localPorto);
+  if (mappedLocal.length) projects = mappedLocal;
+ }
+ renderYearFilters();
+ render();
+
+ try {
+  const res = await fetch(PAK_EXEC_URL + '?action=all&t=' + Date.now(), { redirect: 'follow', cache: 'no-store' });
+  const txt = await res.text();
+  if (!txt.trim().startsWith('<')) {
+   const data = JSON.parse(txt);
+   if (data && data.ok) {
+    if (Array.isArray(data.portofolio) && data.portofolio.length) {
+     localStorage.setItem('pak_v2_porto', JSON.stringify(data.portofolio));
+     const mapped = mapPortoRows(data.portofolio);
+     if (mapped.length) { projects = mapped; renderYearFilters(); render(); }
+    }
+    if (data.settings) {
+     localStorage.setItem('pak_v2_cfg', JSON.stringify(data.settings));
+     applyPakSettingsToPorto(data.settings);
+    }
+   }
+  }
+ } catch (err) {
+  console.warn('Menggunakan data cadangan lokal portofolio:', err);
+ }
+}
+
+window.addEventListener('storage', (e) => {
+ if (e.key === 'pak_v2_porto' && e.newValue) {
+  const mapped = mapPortoRows(JSON.parse(e.newValue));
+  if (mapped.length) { projects = mapped; renderYearFilters(); render(); }
+ }
+ if (e.key === 'pak_v2_cfg' && e.newValue) applyPakSettingsToPorto(JSON.parse(e.newValue));
+});
+
+loadPortfolioFromGoogleSheets();
+window.addEventListener('scroll', () => document.getElementById('header').classList.toggle('scrolled', scrollY > 30));
+</script>
+</body>
+</html>
